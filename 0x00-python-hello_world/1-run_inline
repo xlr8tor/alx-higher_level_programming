@@ -1,0 +1,5 @@
+#!/bin/bash
+
+TMPFILE=$(mktemp)
+echo $PYCODE > $TMPFILE
+python3 $TMPFILE
