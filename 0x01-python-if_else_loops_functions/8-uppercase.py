@@ -8,4 +8,4 @@ def uppercase(str):
             newstr += chr(c - 32)
         else:
             newstr += chr(c)
-    print(newstr)
+    print(f"{newstr}")
