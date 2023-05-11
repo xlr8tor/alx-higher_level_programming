@@ -1,7 +1,9 @@
 #!/usr/bin/python3
-import sys
 
-total = 0
-for num in sys.argv[1:]:
-    total += int(num)
-print(f"{total:d}")
+if __name__ == "__main__":
+    import sys
+
+    total = 0
+    for num in sys.argv[1:]:
+        total += int(num)
+    print(f"{total:d}")
