@@ -44,7 +44,7 @@ class SinglyLinkedList:
             ptr.next_node = None
             self.__head = ptr
         elif self.__head.data > value:
-            self.__head.next_node = self.__head
+            ptr.next_node = self.__head
             self.__head = ptr
         else:
             tmp = self.__head
