@@ -38,15 +38,17 @@ class Rectangle:
         return (self.__width * self.__height)
 
     def perimeter(self):
+        if self.__width == 0 or self.__height == 0:
+            return (0)
         return (self.__width * 2) + (self.__height * 2)
 
     def __str__(self):
-        if self.__width == 0 or self.height == 0:
+        if self.__width == 0 or self.__height == 0:
             return ""
         res = []
 
         for i in range(self.__height):
-            [res.append("#") for n in range(self.width)]
+            [res.append("#") for n in range(self.__width)]
             if i != self.__height - 1:
                 return "".join(res)
 
