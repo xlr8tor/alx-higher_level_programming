@@ -50,7 +50,8 @@ class Rectangle:
         for i in range(self.__height):
             [res.append("#") for n in range(self.__width)]
             if i != self.__height - 1:
-                return "".join(res)
+                res.append("\n")
+        return "".join(res)
 
     def __repr__(self):
         rect = "Rectangle(" + str(self.__width)
