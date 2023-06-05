@@ -51,7 +51,7 @@ class Rectangle:
 
         for i in range(self.__height):
             [res.append(str(self.print_symbol)) for n in range(self.__width)]
-            if i != self.__height:
+            if i != self.__height - 1:
                 res.append("\n")
         return "".join(res)
 
