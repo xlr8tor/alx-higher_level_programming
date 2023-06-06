@@ -1,0 +1,12 @@
+How to divide a matrix by a divisor
+=====================================
+
+Usage
+======
+
+``matrix_divided(...)`` returns a new matrix
+
+>>> matrix_divided()
+Traceback (most recent call last):
+    ...
+TypeError: matrix_divided() missing 2 required positional arguments: 'matrix' and 'num'
