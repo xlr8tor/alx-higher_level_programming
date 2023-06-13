@@ -5,10 +5,10 @@
 class MyInt(int):
     """MyInt has == and != operators inverted"""
 
-    def __eq__(self, value):
+    def __eq__(self, other):
         """switch == with !="""
         return !(self.real == other)
 
-    def __ne__(self, value):
+    def __ne__(self, other):
         """switch != with =="""
         return !(self.real != other)
