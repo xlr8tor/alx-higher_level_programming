@@ -7,8 +7,8 @@ class MyInt(int):
 
     def __eq__(self, other):
         """switch == with !="""
-        return !(self.real == other)
+        return self.real != other
 
     def __ne__(self, other):
         """switch != with =="""
-        return !(self.real != other)
+        return self.real == other
