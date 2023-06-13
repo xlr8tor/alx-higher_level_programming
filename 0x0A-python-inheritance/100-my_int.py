@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 
-"""My module doc"""
-
 
 class MyInt(int):
     """MyInt has == and != operators inverted"""
