@@ -37,7 +37,7 @@ class Rectangle(BaseGeometry):
         return "[Rectangle] {:d}/{:d}".format(self.__width, self.__height)
 
 
-class(Square):
+class Square(Rectangle):
     """Represent a square using BaseGeometry."""
     def __init__(self, size):
         self.integer_validator("size", size)
