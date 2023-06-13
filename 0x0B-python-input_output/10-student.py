@@ -13,7 +13,7 @@ class Student:
 
     def to_json(self, attrs=None):
         """Student Dictionary"""
-        if attrs == None:
+        if attrs is None:
             return self.__dict__
         ndict = {}
         for key, value in self.__dict__.items():
